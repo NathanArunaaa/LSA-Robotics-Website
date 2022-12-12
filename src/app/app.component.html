@@ -1,0 +1,15 @@
+
+<div class="flex flex-row" >
+  <div class="w-full bg-main-gray">
+  <app-topnav class="w-full" *ngIf="showNav"></app-topnav>
+  <div class="flex flex-row">
+    <div class="w-full">
+      <router-outlet *ngIf="showNav"></router-outlet>
+      <app-footer *ngIf="showNav"></app-footer>
+    </div>
+  </div>
+
+<div *ngIf="!showNav">
+  <router-outlet ></router-outlet>
+  <app-footer></app-footer>
+</div>

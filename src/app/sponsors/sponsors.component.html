@@ -1,0 +1,65 @@
+<!--...
+<div class="p-2 place-items-left">
+  <div class="alert alert-info shadow-lg">
+    <div>
+      <div class="avatar">
+        <div class="w-24 rounded">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png" />
+        </div>
+      </div>
+      <div class="stat-value">Microsoft</div>
+    </div>
+</div>
+
+<div class="p-2"></div>
+
+<div class="place-items-left">
+  <div class="alert alert-info shadow-lg">
+    <div>
+      <div class="avatar">
+        <div class="w-24 rounded">
+          <img src="data:image/png;base64,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" />
+        </div>
+      </div>
+      <div class="stat-value">Desjardins</div>
+    </div>
+  </div>
+
+  <div class="p-2"></div>
+  <div class="place-items-left">
+  <div class="alert alert-info shadow-lg">
+    <div>
+      <div class="avatar">
+        <div class="w-24 rounded">
+          <img src="https://laurierouest.com/wp-content/uploads/2019/08/rbc-1200x600.jpg" />
+        </div>
+      </div>
+      <div class="stat-value">RBC</div>
+    </div>
+  </div>
+
+-->
+<div class="flex justify-center px-4 py-16 bg-base-100">
+  <div>
+    <div class="flex flex-row">
+      <h1 class="text-5xl font-bold">This Page is Under Construction 🚧</h1>
+    </div>
+    <p class="py-6">We are sorry, but there is currently no data for this page. Send us an email if you have
+
+      <br>any questions @emailNotYetEstablished or please check back in the future!
+      <br>
+      </p>
+      <a href="/home">
+    <button  class="btn btn-primary">Return to Saftey </button>
+  </a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
