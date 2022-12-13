@@ -7,7 +7,9 @@ import Typed from 'typed.js';
 })
 export class LandingPageComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    
+   }
 
   ngOnInit(): void {
     const options = {
@@ -23,7 +25,7 @@ export class LandingPageComponent implements OnInit {
  };
 
  const typed = new Typed('.typed-element', options);
- 
+
 
 
 
