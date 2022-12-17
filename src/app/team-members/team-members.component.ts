@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-team-members',
@@ -8,7 +8,13 @@ import { Title } from '@angular/platform-browser';
 })
 export class TeamMembersComponent implements OnInit {
 
-  constructor(private title: Title) { }
+  constructor(private meta: Meta, private title: Title) {
+    this.meta.addTags([
+      { name: 'description', content: 'Laval Senior Academy Robotics Team Members' },
+      { name: 'author', content: 'LSA Robotics' },
+      { name: 'keywords', content: 'LSA Robotics, Laval Senior Academy, Robotics, LSA Robotics Team' }
+    ])
+  }
 
   ngOnInit(): void {
     this.title.setTitle('LSA Robotics | Team Members');

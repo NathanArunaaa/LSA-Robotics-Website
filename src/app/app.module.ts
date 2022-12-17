@@ -32,7 +32,8 @@ import { SoftwareListComponent } from './software-list/software-list.component';
     ProjectsComponent,
     CompetitionsComponent,
     OurMissionComponent,
-    SoftwareListComponent
+    SoftwareListComponent,
+
   ],
   imports: [
     BrowserModule,
