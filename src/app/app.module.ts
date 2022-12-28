@@ -36,7 +36,7 @@ import { SoftwareListComponent } from './software-list/software-list.component';
 
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],
