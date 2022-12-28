@@ -12,6 +12,7 @@ import { CompetitionsComponent } from './competitions/competitions.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { OurMissionComponent } from './our-mission/our-mission.component';
 import { SoftwareListComponent } from './software-list/software-list.component';
+import { SponsorInfoComponent } from './sponsor-info/sponsor-info.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'landing-page', pathMatch: 'full' },
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'our-mission', component: OurMissionComponent },
   { path: 'software-list', component: SoftwareListComponent },
+  { path: 'sponsor-info', component: SponsorInfoComponent },
 
 
 ];
