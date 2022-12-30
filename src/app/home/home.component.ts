@@ -1,5 +1,5 @@
+import { SeoService } from './../seo.service';
 import { Component, OnInit } from '@angular/core';
-import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -8,17 +8,18 @@ import { Meta, Title } from '@angular/platform-browser';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private meta: Meta, private title: Title) {
-    this.meta.addTags([
-      { name: 'description', content: 'Laval Senior Academy Robotics Home Page' },
-      { name: 'author', content: 'LSA Robotics' },
-      { name: 'keywords', content: 'LSA Robotics, Laval Senior Academy, Robotics, Home Page' }
-    ])
+  constructor(private seo: SeoService) {
+
   }
 
   ngOnInit(): void {
 
-    this.title.setTitle('LSA Robotics | Home Page');
-  }
+    this.seo.generateTags({
+      title: 'LSA Robotics | Home',
+      description: 'Laval Senior Academy Robotics Team',
+      image: 'http://www.swlauriersb.qc.ca/schools/llhs/_pages/content/LSHS_LLHS/LSHS_LLHS%2030.jpg',
+      slug: 'home'
+    })
 
+}
 }

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Meta, Title } from '@angular/platform-browser';
-
+import { SeoService } from '../seo.service';
 @Component({
   selector: 'app-team-members',
   templateUrl: './team-members.component.html',
@@ -8,16 +7,18 @@ import { Meta, Title } from '@angular/platform-browser';
 })
 export class TeamMembersComponent implements OnInit {
 
-  constructor(private meta: Meta, private title: Title) {
-    this.meta.addTags([
-      { name: 'description', content: 'Laval Senior Academy Robotics Team Members' },
-      { name: 'author', content: 'LSA Robotics' },
-      { name: 'keywords', content: 'LSA Robotics, Laval Senior Academy, Robotics, LSA Robotics Team' }
-    ])
+  constructor(private seo: SeoService) {
+
   }
 
   ngOnInit(): void {
-    this.title.setTitle('LSA Robotics | Team Members');
-  }
 
+    this.seo.generateTags({
+      title: 'LSA Robotics | Team Members',
+      description: 'Laval Senior Academy Robotics Team Members',
+      image: 'http://www.swlauriersb.qc.ca/schools/llhs/_pages/content/LSHS_LLHS/LSHS_LLHS%2030.jpg',
+      slug: 'team-members'
+    })
+
+}
 }
