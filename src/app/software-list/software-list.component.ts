@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SeoService } from '../seo.service';
+import { Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-software-list',
   templateUrl: './software-list.component.html',
@@ -7,11 +8,13 @@ import { SeoService } from '../seo.service';
 })
 export class SoftwareListComponent implements OnInit {
 
-  constructor(private seo: SeoService) {
+  constructor(private seo: SeoService, private title: Title) {
 
   }
 
   ngOnInit(): void {
+    
+    this.title.setTitle('LSA Robotics | Software List');
 
     this.seo.generateTags({
       title: 'LSA Robotics | Software List',

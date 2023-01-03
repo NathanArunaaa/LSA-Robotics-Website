@@ -1,6 +1,6 @@
+//Libraries
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
 
 //page imports
 import { HomeComponent } from './home/home.component';
@@ -26,7 +26,6 @@ const routes: Routes = [
   { path: 'our-mission', component: OurMissionComponent },
   { path: 'software-list', component: SoftwareListComponent },
   { path: 'sponsor-info', component: SponsorInfoComponent },
-
 
 ];
 
