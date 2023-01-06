@@ -139,7 +139,7 @@
               "serverTarget": "LSA-Robotics:server:production"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "production"
         },
         "prerender": {
           "builder": "@nguniversal/builders:prerender",
