@@ -1,55 +1,83 @@
-<!--?xml version="1.0" encoding="UTF-8"?-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>
-	<url></url>
-		<loc>https://lsarobotics.ca/home</loc>
-		<lastmod>2018-01-01</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>1.0</priority>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://lsarobotics.ca/</loc>
+<lastmod>2023-01-08T02:02:27+00:00</lastmod>
+<changefreq>hourly</changefreq>
+</url>
 
-	<url></url>
-		<loc>https://lsarobotics.ca/landing-page</loc>
-		<lastmod>2018-03-05</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
+<url>
+<loc>https://lsarobotics.ca/home</loc>
+<lastmod>2023-01-08T02:02:27+00:00</lastmod>
+<changefreq>hourly</changefreq>
+</url>
 
-	<url></url>
-		<loc>https://lsarobotics.ca/team-members</loc>
-		<lastmod>2018-03-08</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.o</priority>
 
-	<url></url>
-		<loc>https://lsarobotics.ca/competitions/</loc>
-		<lastmod>2018-03-08</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.o</priority>
+<url>
+<loc>https://lsarobotics.ca/landing-page</loc>
+<lastmod>2023-01-08T02:02:27+00:00</lastmod>
+<changefreq>hourly</changefreq>
+</url>
 
-	<url></url>
-		<loc>https://lsarobotics.ca/projects</loc>
-		<lastmod>2018-03-08</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.o</priority>
 
-	<url></url>
-		<loc>https://lsarobotics.ca/sponsors</loc>
-		<lastmod>2018-03-08</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.o</priority>
+<url>
+<loc>https://lsarobotics.ca/team-members</loc>
+<lastmod>2023-01-08T02:02:27+00:00</lastmod>
+<changefreq>hourly</changefreq>
+</url>
 
-	<url></url>
-		<loc>https://lsarobotics.ca/software-list</loc>
-		<lastmod>2018-03-08</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.o</priority>
 
-  <url></url>
-		<loc>https://lsarobotics.ca/about</loc>
-		<lastmod>2018-03-08</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.o</priority>
+<url>
+<loc>https://lsarobotics.ca/software-list</loc>
+<lastmod>2023-01-08T02:02:27+00:00</lastmod>
+<changefreq>hourly</changefreq>
+</url>
 
-  <url></url>
-		<loc>https://lsarobotics.ca/sponsor-info</loc>
-		<lastmod>2018-03-08</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.o</priority>
+
+<url>
+<loc>https://lsarobotics.ca/sponsor-info</loc>
+<lastmod>2023-01-08T02:02:27+00:00</lastmod>
+<changefreq>hourly</changefreq>
+</url>
+
+
+<url>
+<loc>https://lsarobotics.ca/our-mission</loc>
+<lastmod>2023-01-08T02:02:27+00:00</lastmod>
+<changefreq>hourly</changefreq>
+</url>
+
+
+<url>
+<loc>https://lsarobotics.ca/competitions</loc>
+<lastmod>2023-01-08T02:02:27+00:00</lastmod>
+<changefreq>hourly</changefreq>
+</url>
+
+
+<url>
+<loc>https://lsarobotics.ca/projects</loc>
+<lastmod>2023-01-08T02:02:27+00:00</lastmod>
+<changefreq>hourly</changefreq>
+</url>
+
+
+
+<url>
+<loc>https://lsarobotics.ca/sponsors</loc>
+<lastmod>2023-01-08T02:02:27+00:00</lastmod>
+<changefreq>hourly</changefreq>
+</url>
+
+
+
+<url>
+<loc>https://lsarobotics.ca/about</loc>
+<lastmod>2023-01-08T02:02:27+00:00</lastmod>
+<changefreq>hourly</changefreq>
+</url>
+
+
+
+
+</urlset>
