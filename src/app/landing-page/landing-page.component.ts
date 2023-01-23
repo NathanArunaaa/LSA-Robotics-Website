@@ -20,7 +20,7 @@ export class LandingPageComponent implements OnInit {
       slug: undefined
     })
     const options = {
-      strings: ['LSA R⚙️BOTICS', 'Innovative.', 'Forward Thinking.', 'Perseverance.'],
+      strings: ['LSA ROBOTICS', 'Innovative.', 'Forward Thinking.', 'Perseverance.'],
       typeSpeed: 90,
       backSpeed: 90,
       showCursor: false,
