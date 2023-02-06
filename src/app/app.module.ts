@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,7 +17,18 @@ import { CompetitionsComponent } from './competitions/competitions.component';
 import { OurMissionComponent } from './our-mission/our-mission.component';
 import { SoftwareListComponent } from './software-list/software-list.component';
 
+
 @NgModule({
+
+  imports: [
+    ReactiveFormsModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    AppRoutingModule,
+    FormsModule,
+
+
+  ],
+
   declarations: [
     AppComponent,
     TopnavComponent,
@@ -34,11 +44,9 @@ import { SoftwareListComponent } from './software-list/software-list.component';
     OurMissionComponent,
     SoftwareListComponent,
 
+
   ],
-  imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    AppRoutingModule
-  ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
