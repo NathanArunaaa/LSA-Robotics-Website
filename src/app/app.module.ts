@@ -27,6 +27,7 @@ import { SoftwareListComponent } from './software-list/software-list.component';
     FormsModule,
 
 
+
   ],
 
   declarations: [

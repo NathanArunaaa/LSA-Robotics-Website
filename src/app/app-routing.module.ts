@@ -13,8 +13,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { OurMissionComponent } from './our-mission/our-mission.component';
 import { SoftwareListComponent } from './software-list/software-list.component';
 import { SponsorInfoComponent } from './sponsor-info/sponsor-info.component';
-import { LsarLoginComponent } from './lsar-login/lsar-login.component';
 import { ContactComponent } from './contact/contact.component';
+import { TeamPhotosComponent } from './team-photos/team-photos.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'landing-page', pathMatch: 'full' },
@@ -29,6 +29,7 @@ const routes: Routes = [
   { path: 'software-list', component: SoftwareListComponent },
   { path: 'sponsor-info', component: SponsorInfoComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'team-photos', component: TeamPhotosComponent },
 
 ];
 
