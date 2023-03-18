@@ -10,13 +10,13 @@
   });
 </script>
 
-<div class="flex flex-row" >
-  <div class="w-full bg-main-gray">
-  <app-topnav class="w-full" *ngIf="showNav"></app-topnav>
-  <div class="flex flex-row">
-    <div class="w-full">
-      <router-outlet *ngIf="showNav"></router-outlet>
-      <app-footer *ngIf="showNav"></app-footer>
+<div class="flex flex-row overflow-auto scrollbar-hide" >
+  <div class="w-full bg-main-gray overflow-auto scrollbar-hide">
+  <app-topnav class="w-full overflow-hidden" *ngIf="showNav"></app-topnav>
+  <div class="flex flex-row overflow-hidden">
+    <div class="w-full overflow-hidden">
+      <router-outlet class="overflow-auto scrollbar-hide" *ngIf="showNav"></router-outlet>
+      <app-footer class="overflow-auto scrollbar-hide" *ngIf="showNav"></app-footer>
     </div>
   </div>
 
